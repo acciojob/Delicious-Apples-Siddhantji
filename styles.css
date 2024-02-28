@@ -1,1 +1,76 @@
 /* your code here */
+body{
+	background-color:#11E37E;
+}
+.product{
+	background-color:white;
+	border-radius:8px;
+}
+.controls{
+	width:490px;
+	margin-left:5px;
+	display:flex;
+	justify-content:space-between;
+}
+.title span{
+	color:gray;
+}
+.photo-album{
+	background-color:white;
+	height:90px;
+	display:flex;
+}
+.no-b{
+	border:0px !important;
+}
+.product-img-ap{
+	display:flex;
+	list-style:none;
+	width:400px;
+	justify-content:space-evenly;
+}
+.product-img-ap li{
+	border:1px solid black;
+}
+.photo-container{
+	height:500px;
+	width: 500px;
+	background-color:#AEE633;
+	display:flex;
+	justify-content:space-between;
+	flex-direction:column;
+}
+.product{
+	width:1000px;
+	display:flex;
+	gap:20px;
+}
+.product__info{
+	
+}
+.title h1{
+	margin-bottom:3px
+}
+.title span{
+	margin-top:0px;
+	font-size:10px
+}
+.price{
+	color:red;
+}
+.price span{
+	font-size: 30px;
+}
+.variant h3{
+	color:gray;
+}
+.description h3{
+	color:gray;
+}
+button{
+	padding:10px;
+	background-color:red;
+	color:white;
+	border:0px;
+	border-radius:5px
+}
